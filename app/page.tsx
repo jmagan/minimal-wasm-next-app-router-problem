@@ -1,9 +1,8 @@
-"use client";
 import dynamic from 'next/dynamic'
 
 export default dynamic(
   async function Home() {
-    const cardano = await require('@emurgo/cardano-serialization-lib-browser');
+    const cardano = await import('@emurgo/cardano-serialization-lib-browser');
     return function HomeLoadedComponent() {
        
       return (
@@ -13,7 +12,7 @@ export default dynamic(
     }
   },
   {
-    ssr: false,
+    ssr: true,
     loading: () => <p> Loading WASM .. </p>
   },
 );
