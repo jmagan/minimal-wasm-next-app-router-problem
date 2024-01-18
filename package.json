@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emurgo/cardano-serialization-lib-nodejs": "^11.5.0",
+    "@emurgo/cardano-serialization-lib-browser": "^11.5.0",
     "next": "canary",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
