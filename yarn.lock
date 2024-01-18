@@ -12,13 +12,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emurgo/cardano-serialization-lib-nodejs@npm:^11.5.0":
-  version: 11.5.0
-  resolution: "@emurgo/cardano-serialization-lib-nodejs@npm:11.5.0"
-  checksum: 06871ea49e0bb13ca7e696cf9e8ef8dbe38789e7ae2aad9c08eaae7e0219eff42f6be23e4c67cf051cef5ffc2a35dc7a3bd952bf39de5916ff016c605b08b6a0
-  languageName: node
-  linkType: hard
-
 "@next/env@npm:14.0.5-canary.59":
   version: 14.0.5-canary.59
   resolution: "@next/env@npm:14.0.5-canary.59"
@@ -293,7 +286,6 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@emurgo/cardano-serialization-lib-browser": "npm:^11.5.0"
-    "@emurgo/cardano-serialization-lib-nodejs": "npm:^11.5.0"
     "@types/node": "npm:20.4.5"
     "@types/react": "npm:18.2.18"
     next: "npm:canary"
